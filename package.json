@@ -1,0 +1,37 @@
+{
+  "name": "apify-actor-starter-ts",
+  "version": "1.0.0",
+  "description": "My Awesome Apify Actor",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "env-cmd -f .env.local tsx src/main.ts",
+    "build": "tsc",
+    "lint": "biome check",
+    "test": "echo \"Error: oops, the Actor has no tests yet, sad!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/room-js/apify-actor-ts-starter.git"
+  },
+  "author": "room_js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/room-js/apify-actor-ts-starter/issues"
+  },
+  "homepage": "https://github.com/room-js/apify-actor-ts-starter#readme",
+  "dependencies": {
+    "apify": "3.5.2"
+  },
+  "devDependencies": {
+    "@apify/tsconfig": "0.1.1",
+    "@biomejs/biome": "2.3.5",
+    "@types/node": "24.10.1",
+    "env-cmd": "11.0.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

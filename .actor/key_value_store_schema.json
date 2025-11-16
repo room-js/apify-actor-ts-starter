@@ -1,0 +1,14 @@
+{
+  "actorKeyValueStoreSchemaVersion": 1,
+  "title": "Key-Value Store Schema",
+  "collections": {
+    "test": {
+      "title": "Test Collection",
+      "description": "Test Collection Description",
+      "keyPrefix": "test_",
+      "contentTypes": [
+        "application/json"
+      ]
+    }
+  }
+}

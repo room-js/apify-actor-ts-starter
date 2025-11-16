@@ -1,0 +1,5 @@
+storage
+node_modules
+.venv
+.env.local
+dist

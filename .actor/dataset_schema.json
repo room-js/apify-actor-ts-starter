@@ -1,0 +1,22 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Dataset",
+      "transformation": {
+        "fields": [
+          "value"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "testValue": {
+            "label": "Test Value"
+          }
+        }
+      }
+    }
+  }
+}

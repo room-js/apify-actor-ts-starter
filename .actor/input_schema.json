@@ -1,0 +1,26 @@
+{
+  "title": "Search posts on Instagram by Text",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "testParam": {
+      "title": "Test Parameter",
+      "type": "string",
+      "description": "This is a string input parameter",
+      "editor": "textfield",
+      "prefill": "Placeholder Value"
+    },
+    "proxyConfig": {
+      "title": "Proxy configuration (RECOMMENDED)",
+      "type": "object",
+      "description": "Select proxies to be used by your crawler",
+      "prefill": {
+        "useApifyProxy": true
+      },
+      "editor": "proxy"
+    }
+  },
+  "required": [
+    "testParam"
+  ]
+}
